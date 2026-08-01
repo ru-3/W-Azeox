@@ -1,3 +1,5 @@
+![W-Azeox Banner](https://raw.githubusercontent.com/ru-3/W-Azeox/main/grok_1785619190645.jpg)
+
 W-Azeox For Blox Fruit
 
 An open-source script for Blox Fruits on Roblox.
