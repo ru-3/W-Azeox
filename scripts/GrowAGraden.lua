@@ -1,5 +1,5 @@
 --[[
-    Zoex Hub - Fluent Edition
+    W-Azeox Hub - Fluent Edition
     - HarvestObject: turbo mode, minimal waits, instant fire, no redundant checks
     - Auto Harvest loop: stripped down, 0.01s loop rate, direct CFrame + fire
     - Auto Expand Garden: fires ExpandGarden packet on a fast loop
@@ -1942,7 +1942,7 @@ Fluent:SetTheme("Dark")
 
 local Window = Fluent:CreateWindow({
     Title = "W-Azeox [Freeminu]",
-    SubTitle = "By @z._h. In Discord",
+    SubTitle = "By @z._h. On Discord",
     TabWidth = IsMobile and 130 or 160,
     Size = IsMobile and UDim2.fromOffset(480, 490) or UDim2.fromOffset(580, 440),
     Acrylic = false,
@@ -1989,24 +1989,24 @@ end
 -- ============================================================
 --  TAB: HOME
 -- ============================================================
-local secHome = Tabs.Home:AddSection("Ron Hub", "solar/crown-bold")
+local secHome = Tabs.Home:AddSection("W-Azeox Hub", "solar/crown-bold")
 
 secHome:AddParagraph({
-    Title = "˚ 🎩 . ᵎRon Communityᵎ .",
-    Content = "رون كميونتي - سيرفر عربي متخصص في برمجة ونشر سكربتات روبلوكس .",
+    Title = "W-Azeox Community",
+    Content = "W-Azeox Best Community To Send Best Sources For Free.",
 })
 
 secHome:AddDiscord({
-    InviteCode = "NrxsCzbPS4",
+    InviteCode = "9JBA7UGqR",
 })
 
 secHome:AddButton({
     Title = "Copy Discord Invite",
-    Description = "https://discord.gg/NrxsCzbPS4",
+    Description = "https://discord.gg/W-Azeox",
     Callback = function()
         if setclipboard then
-            setclipboard("https://discord.gg/NrxsCzbPS4")
-            Fluent:Notify({ Title = "Ron Hub", Content = "Invite copied to clipboard", Type = "Success", Duration = 3 })
+            setclipboard("https://discord.gg/9JBA7UGqR")
+            Fluent:Notify({ Title = "W-Azeox", Content = "Invite copied to clipboard", Type = "Success", Duration = 3 })
         end
     end,
 })
@@ -2552,9 +2552,9 @@ end)
 Window:SelectTab(1)
 
 Fluent:Notify({
-    Title = "Ron Hub | GaG2",
+    Title = "W-Azeox | GaG2",
     Content = "Loaded successfully - Fluent Edition",
-    SubContent = "by @2.6ze And @36ax",
+    SubContent = "by z0 on discord",
     Type = "Success",
     Duration = 5,
 })
